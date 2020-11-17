@@ -1,0 +1,12 @@
+on:
+  pull_request:
+    branch: master
+
+jobs:
+  test_on_pull:
+    name: On pull request
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+      run: |
+        pwd
