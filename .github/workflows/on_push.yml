@@ -7,6 +7,6 @@ jobs:
     name: On push
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - name: Who am I command
       run: |
         whoami
